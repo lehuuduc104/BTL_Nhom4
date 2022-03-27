@@ -1,0 +1,63 @@
+/* Thanh Nav */
+body{
+    font-family: "Poppins", sans-serif;;
+}
+.navbar{
+    margin-left: 45px;
+}
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.navbar-nav{
+    margin: auto;
+    text-align: center;    
+}
+#navbarText a:hover{color: blue;}
+#navbarText a:active{color: red;}
+
+.navbar-nav .nav-item{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-right: 25px;
+}
+
+/* About Us */
+#con_about{
+    background-color: #3B4A6B;
+    padding: 90px 0 90px 0;
+    margin-bottom: 100px;
+}
+#row_about{
+   margin: auto;
+}
+#col_about_img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#con_about img{
+    max-width: 375px;
+}
+#col_about_card{
+    color: white;
+    margin: auto;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: justify;
+}
+#col_about_card h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    margin-bottom: 15px;
+}
+#col_about_card a{
+    padding: 10px 45px 10px 45px;
+    background-color: #F0D43A;
+    border: 1px solid #F0D43A;
+    margin-top: 15px;
+}
