@@ -85,7 +85,64 @@ img{
 }
 /* End Slider */
 
-/* About Us */
+/* StartProduct */
+#con_Pro h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 100px 0 40px 0;
+    line-height: 38.4px;
+}
+#con_Pro .card{
+    border: 1px none #FAF9FA;
+    background-color: #FAF9FA;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+#card_new {
+    text-decoration: none;
+    color: white;
+    max-width: fit-content ;
+    padding: 5px 15px 5px 15px;
+    background-color: #F0D43A;
+    border-top-left-radius: 15px;
+}
+.card-img{
+    height: 245px;
+    display: flex;
+    justify-content: center;
+}
+.card-img img{
+    max-width: 97px;
+    max-height: 175px;
+    margin-top: 20px;
+}
+#card_name{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+#con_Pro_a{
+    display: flex;
+    justify-content: center;
+}
+#con_Pro_a a{
+    text-decoration: none;
+    background-color: #F0D43A;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    border: 1px solid #F0D43A;
+    margin-bottom: 100px;
+}
+
+/* End Product */
+
+/* Start About Us */
 #con_about{
     background-color: #3B4A6B;
     padding: 90px 0 90px 0;
@@ -123,7 +180,7 @@ img{
 }
 /* End About */
 
-/* Footer */
+/* Start Footer */
 #con_footer_3{
     display: flex;
     justify-content: center;
@@ -198,3 +255,4 @@ img{
     border-radius: 10px;
 }
 /* End Footer */
+
