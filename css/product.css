@@ -1,0 +1,148 @@
+/* Product */
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#Con_Pro{
+    margin-top: 60px;
+}
+#Con_Pro h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+#Con_Pro .row{
+    margin-top: 30px;
+}
+.col_1{
+    width: 80%;
+    margin: auto;
+}
+.col_1 span{
+    font-weight: bold;
+    font-size: 20px;
+}
+#col_img_1 {
+    height: 350px;
+}
+#row_pro_img .col{
+    border: 1px solid #D20A0A;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+#row_pro_img .col .img_1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.radio_1{
+    display: flex;
+}
+.radio_1 .rad1{
+    margin-right: 20px;
+}
+.color_sw{
+    display: flex;
+}
+.color_sw a{
+    text-decoration: none;
+    border: 1px solid black;
+    margin-right: 20px;
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+}
+.colow_white{
+    background-color: white;
+}
+.color_yellow{
+    background-color: yellow;
+}
+.color_black{
+    background-color: black;
+}
+.color_blue{
+    background-color: blue;
+}
+.buy{
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #D20A0A;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #D20A0A;
+}
+.buyNow{
+    text-decoration: none;
+    margin: auto;
+    color: white;
+}
+.buyNow:hover{
+    color: white;
+}
+.row_call{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.call{
+    width: 50%;
+    height: 50px;
+    border: 1px solid #1D72E0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #1D72E0;
+    margin-right: 30px;
+}
+.CallUs{
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+}
+.CallUs:hover{
+    color: white;
+}
+
+.Ins{
+    width: 50%;
+    height: 50px;
+    border: 1px solid #1D72E0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #1D72E0;
+}
+.Ins_1{
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+
+}
+.Ins_1:hover{
+    color: white;
+}
+
+/*  */
+#col_Spe h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    width: 30%;
+}
+th, td{
+    height: 50px;
+    padding: 10px;
+}
