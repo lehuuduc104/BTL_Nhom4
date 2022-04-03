@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1,label {
+    color: #4CAF50;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: #f44336;
+}
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Set a style for all buttons */
+#btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#btn:hover {
+    opacity: 1;
+}
+
+form{
+    width: 100%;
+}
+.container{
+    margin-top: 180px;
+    margin-bottom: 200px;
+}
+.container .row {
+    width: 60%;
+    margin: auto;
+}
+#row_1{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.home{
+    background-color: #4CAF50;
+    height: 50px;
+}
+.icon_home{
+    margin: auto;
+    width: 90%;
+    font-size: 30px;
+}
+.icon_home a{
+    float: right;
+    color: white;
+}
