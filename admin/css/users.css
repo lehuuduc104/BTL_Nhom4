@@ -1,0 +1,83 @@
+/* Start Nav */
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #4CAF50;
+}
+.navbar .navbar-brand{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    color: white;
+}
+.navbar-nav{
+    margin: auto;
+    text-align: center;    
+}
+#navbarText a:hover{color: #325297;}
+#navbarText a:active{color: red;}
+
+.navbar-nav .nav-item{
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: white;
+    padding-right: 25px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    font-weight: bold;
+}
+.navbar-text{
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-text .nav-item .nav-link{
+    color: white;
+}
+/* End Nav */
+
+input{
+    margin: 10px;
+}
+table{
+    min-height: 300px;
+    
+    background-color: #4CAF50;
+}
+
+table, td{
+    color: white;
+}
+button{
+    margin-right: 50px;
+    padding-left: 20px !important; 
+    padding-right: 20px !important;
+}
+
+.delete_btn{
+    color: #c82333;
+}
+.btn_nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.edit_btn{
+    color: #e0a800;
+}
+
+span[onclick]{
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center!important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}

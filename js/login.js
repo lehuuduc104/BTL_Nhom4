@@ -7,7 +7,7 @@ function login(){
     let pass=document.getElementById('passtxt').value;
     let error_txt=document.getElementById('text_error');
     if(name==admin_name && pass==admin_pass){
-        location.href='../about.html';
+        location.href='../admin/index.html';
     }
     else if(name==user_name && pass==user_pass){
         location.href='../index.html';

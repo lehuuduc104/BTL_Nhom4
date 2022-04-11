@@ -4,6 +4,7 @@ body{
 }
 .navbar{
     margin-left: 45px;
+    position: relative;
 }
 .navbar-brand{
     font-size: 24px;
@@ -23,6 +24,36 @@ body{
     text-transform: uppercase;
     color: #000000;
     padding-right: 25px;
+}
+
+.product_shop{
+    padding: 10px;
+    border: 1px solid black;
+}
+#shop{
+    display: none;
+}
+.nav-item:hover #shop {
+    background-color: white;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+}
+.nav{
+    margin-right: 100px;
+}
+#shop_img{
+    width: 70px;
+    height: 70px;
+}
+#shop_txt{
+    font-weight: bold;
+    color: black;
+    margin: auto;
+}
+#shop_row_2{
+    margin-top: 10px;
 }
 /* End Nav */
 
